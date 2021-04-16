@@ -139,6 +139,14 @@ button.accordion-button.collapsed > h2{
     border-radius: 5px;
 }
 
+.modal-content {
+    background-color: #EFF4EA;
+}
+
+.special-offer {
+    color: #F8BC1A;
+}
+
 
 /* Navbar section */
 
