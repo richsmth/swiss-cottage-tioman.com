@@ -144,7 +144,7 @@ button.accordion-button.collapsed > h2{
 }
 
 .special-offer {
-    color: #F8BC1A;
+    color: #F8BC1A !important;
 }
 
 
@@ -1099,6 +1099,18 @@ div.col-lg-4.text-right a:focus {
             margin-left: auto;
             margin-right: auto;
             padding-left: 1rem;
+        }
+
+        .hero h1, p {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .hero .special-offer {
+            display: flex;
+            justify-content: center;
+
         }
 
         /* rooms */
